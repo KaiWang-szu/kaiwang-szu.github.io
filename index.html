@@ -1,7 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张三 - 个人简历</title>
+    <style>
+        body { font-family: 'Microsoft YaHei', sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .header { text-align: center; border-bottom: 2px solid #333; padding-bottom: 20px; }
+        .contact { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        .section { margin: 30px 0; }
+        .project { margin: 15px 0; padding: 10px; background: #f5f5f5; }
+        @media (max-width: 600px) { body { padding: 10px; } }
+    </style>
+</head>
 <body>
-  <h1>Hello World!</h1>
-  <p>My GitHub Page is Live!</p>
+    <div class="header">
+        <h1>张三</h1>
+        <p>前端开发工程师 | 3年经验</p>
+        <div class="contact">
+            <span>📧 zhangsan@email.com</span>
+            <span>📱 138-xxxx-xxxx</span>
+            <span>📍 北京</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>💼 工作经历</h2>
+        <div class="project">
+            <h3>字节跳动 - 高级前端工程师（2023-至今）</h3>
+            <ul>
+                <li>主导 XX 系统重构，性能提升 60%</li>
+                <li>团队技术分享和新人培养</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🛠️ 技术栈</h2>
+        <p><strong>前端:</strong> Vue.js, React, TypeScript, Webpack</p>
+        <p><strong>后端:</strong> Node.js, Express, MongoDB</p>
+    </div>
 </body>
 </html>
